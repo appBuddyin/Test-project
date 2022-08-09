@@ -11,6 +11,6 @@ func TestPassingMarks(t *testing.T) {
 
 	result := gettingPassingMarks(marks)
 	if result != want {
-		t.Errorf("failed , should have passed")
+		t.Errorf("passing marks should be more than 33")
 	}
 }
